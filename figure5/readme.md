@@ -1,9 +1,9 @@
 Figure caption: Each panel is the Taylor diagram for a permutation test corresponding to the analysis in the respective panel in Fig. 4. The gray thicker arc also corresponds to the one spanned by 5th to 95-th percentiles in each respective panel in Fig. 4. See last part of Sect. 3.a for more details.
 
 1. Run `cdo_sel.py` to produce `ensomerge_djf_perm_long.nc`, etc.
-2. Use `write_fortaylor.gs` with GRADS to produce `ensomerge_atm_djf_fortaylor_perm_long.txt`.
+2. Use `write_fortaylor.gs` in GRADS to produce `ensomerge_atm_djf_fortaylor_perm_long.txt`.
 3. Redo steps 1. and 2. for JF and ND.
-4. Use `plottaylor.m` to plot the Taylor diagrams
+4. Use `plottaylor.m` in Matlab to plot the Taylor diagrams
 
 ## Input data (as in Fig. 1):
 
