@@ -1,7 +1,4 @@
-Figure caption: Sea level pressure (SLP) composites for El Nino minus La Nina events in the months shown on
-377 the panels during 1920–2012. The ENSO events are selected for Nino3.4 amplitudes greater than 1 standard
-378 deviation. Contour interval (CI) in (a) and (b) is 2 hPa, and is 1 hPa in (c). Gray shading indicates 5% confidence
-379 level for two-tailed t test. All analyses in this paper use data from HadSST and NOAA-CIRES 20CR V2c.
+Figure caption: Sea level pressure (SLP) composites for El Nino minus La Nina events in the months shown on the panels during 1920–2012. The ENSO events are selected for Nino3.4 amplitudes greater than 1 standard deviation. Contour interval (CI) in (a) and (b) is 2 hPa, and is 1 hPa in (c). Gray shading indicates 5% confidence level for two-tailed t test. All analyses in this paper use data from HadSST and NOAA-CIRES 20CR V2c.
 
 1. The Python script cdo_sel.py is used for calculating DJF bootstraps and produces these files: 
 ensomerge_djf.nc, elninovarmerge_djf.nc, laninavarmerge_djf.nc
