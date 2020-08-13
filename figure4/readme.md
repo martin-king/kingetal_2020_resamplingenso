@@ -33,11 +33,19 @@ ensomerge_djf_long.nc
 
 laninavarmerge_djf_long.nc
 
+elninovarmerge_jf_long.nc
+
+ensomerge_jf_long.nc
+
+laninavarmerge_jf_long.nc
+
 ## Scripts and other files (same as Figs. 1 and 2 together):
 
 cdo_sel.py
 
 plotcomp.gs
+
+polst.gs
 
 write_fortaylor.gs
 
