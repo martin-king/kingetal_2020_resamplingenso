@@ -16,11 +16,14 @@ Output data:
 ensomerge_djf.nc
 elninovarmerge_djf.nc
 laninavarmerge_djf.nc
--
 ensomerge_jf.nc
-elninovarmerge_djf.nc
+elninovarmerge_jf.nc
 laninavarmerge_jf.nc
--
 ensomerge_nd.nc
 elninovarmerge_nd.nc
 laninavarmerge_nd.nc
+
+scripts and other files:
+cdo_sel.py
+plot_comp.gs
+polst.gs
