@@ -7,9 +7,9 @@ Blue, green, and red straight lines indicate respectively the 5th, median, and 9
 correlations with observation. See Sect. 3.a for more details.
 
 1. The steps and scripts used here are similar to Figures 1 and 2. Rerun `cdo_sel.py` with the longer periods (more ENSO events). This produces `ensomerge_djf_long.nc` needed for input in step 4.
-2. Use `plotcomp.gs` to plot the observed composite.
+2. Use `plotcomp.gs` in GRADS to plot the observed composite.
 3. Repeat 1. and 2. for JF and ND as well.
-4. Use `write_fortaylor.gs` to produce the txt files needed by `plottaylor.m` to plot the Taylor diagrams.
+4. Use `write_fortaylor.gs` in GRADS to produce the txt files needed by `plottaylor.m` in Matlab to plot the Taylor diagrams.
 
 ## Input data (as in Fig. 1):
 
