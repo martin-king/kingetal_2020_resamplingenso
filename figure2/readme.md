@@ -2,7 +2,7 @@ Caption: Taylor diagrams analyzed for North Atlantic with 2000 bootstrap SLP com
 
 1. To plot the Taylor diagram: Open the previously created file `ensomerge_djf.nc` in GRADS, use `write_fortaylor.gs` to produce `ensomerge_atm_djf_fortaylor_2ndrun.txt` for the North Atlantic sector.
 2. Use plottaylor.m in Matlab to plot the Taylor diagram.
-3. Repeat 1. and 2. to produce JF and ND Taylor diagrams.
+3. Modify `write_fortaylor.gs` and repeat 1. and 2. to produce JF and ND Taylor diagrams.
 4. The 5th and 95th percentiles panels are found with the help of the Taylor diagrams and the *.txt files from 1. to identify which samples are at these levels, then plotted using plotcomp.gs like for Figure 1.
 
 ## Input data:
@@ -13,7 +13,7 @@ ensomerge_jf.nc
 
 ensomerge_nd.nc
 
-## Output data:
+## Output data (provided also here as their sizes are small):
 
 ensomerge_atm_djf_fortaylor_2ndrun.txt
 
