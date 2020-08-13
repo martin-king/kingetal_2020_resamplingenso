@@ -5,7 +5,7 @@ Figure caption: Taylor diagrams analyzed for North Atlantic with 2000 bootstrap 
 3. Modify `write_fortaylor.gs` and repeat 1. and 2. to produce JF and ND Taylor diagrams.
 4. The 5th and 95th percentiles panels are found with the help of the Taylor diagrams and the *.txt files from 1. to identify which samples are at these levels, then plotted using plotcomp.gs like for Figure 1.
 
-## Input data:
+## Input data (available from Figure 1):
 
 ensomerge_djf.nc
 
