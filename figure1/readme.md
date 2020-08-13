@@ -7,14 +7,16 @@ plot the outputs from 1. in GRADS. A typical plotting script is plotcomp.gs. The
 in the last step (level 2001) in my case here.
 3. Edit cdo_sel.py and repeat steps 1 and 2 to obtain and plot the JF and ND composites.
 
-Input data:
+## Input data:
+
 prmsl.mon.mean_djfmean.nc
 
 prmsl.mon.mean_janfebmean.nc
 
 prmsl.mon.mean_novdecmean.nc
 
-Output data:
+## Output data:
+
 ensomerge_djf.nc
 
 elninovarmerge_djf.nc
@@ -33,7 +35,8 @@ elninovarmerge_nd.nc
 
 laninavarmerge_nd.nc
 
-scripts and other files:
+## Scripts and other files:
+
 cdo_sel.py
 
 plot_comp.gs
