@@ -39,6 +39,12 @@ ensomerge_jf_long.nc
 
 laninavarmerge_jf_long.nc
 
+elninovarmerge_nd_long.nc
+
+ensomerge_nd_long.nc
+
+laninavarmerge_nd_long.nc
+
 ## Scripts and other files (same as Figs. 1 and 2 together):
 
 cdo_sel.py
