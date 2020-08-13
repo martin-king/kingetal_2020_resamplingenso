@@ -6,10 +6,10 @@ red semi-circles indicate respectively the 5th, median, and 95th percentiles of 
 Blue, green, and red straight lines indicate respectively the 5th, median, and 95th percentiles of the spatial
 correlations with observation. See Sect. 3.a for more details.
 
-1. The steps and scripts used here are similar to Figures 1 and 2. Rerun `cdo_sel.py` with the longer periods (more ENSO events).
+1. The steps and scripts used here are similar to Figures 1 and 2. Rerun `cdo_sel.py` with the longer periods (more ENSO events). This produces `ensomerge_djf_long.nc` needed for input in step 4.
 2. Use `plotcomp.gs` to plot the observed composite.
-3. Repeat 1. and 2. for JF and NS as well.
-3. Use `write_fortaylor.gs` to produce the txt files needed by plottaylor.m to plot the Taylor diagrams.
+3. Repeat 1. and 2. for JF and ND as well.
+4. Use `write_fortaylor.gs` to produce the txt files needed by `plottaylor.m` to plot the Taylor diagrams.
 
 ## Input data (as in Fig. 1):
 
@@ -19,13 +19,19 @@ prmsl.mon.mean_janfebmean.nc
 
 prmsl.mon.mean_novdecmean.nc
 
-## Output data (provided also here as their sizes are small):
+## Output data (txt files provided also here as their sizes are small):
 
 ensomerge_atm_djf_fortaylor_2ndrun_long.txt
 
 ensomerge_atm_jf_fortaylor_2ndrun_long.txt
 
 ensomerge_atm_nd_fortaylor_2ndrun_long.txt
+
+elninovarmerge_djf_long.nc
+
+ensomerge_djf_long.nc
+
+laninavarmerge_djf_long.nc
 
 ## Scripts and other files (same as Figs. 1 and 2 together):
 
@@ -38,3 +44,22 @@ write_fortaylor.gs
 plottaylor.m
 
 startup.m
+
+elninovarmerge_atm_djf_long.ctl
+
+ensomerge_atm_djf_long.ctl
+
+laninavarmerge_atm_djf_long.ctl
+
+elninovarmerge_atm_jf_long.ctl
+
+ensomerge_atm_jf_long.ctl
+
+laninavarmerge_atm_jf_long.ctl
+
+elninovarmerge_atm_nd_long.ctl
+
+ensomerge_atm_nd_long.ctl
+
+laninavarmerge_atm_nd_long.ctl
+
