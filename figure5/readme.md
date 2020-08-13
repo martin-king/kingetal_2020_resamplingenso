@@ -8,7 +8,7 @@ prmsl.mon.mean_janfebmean.nc
 
 prmsl.mon.mean_novdecmean.nc
 
-## Output data:
+## Output data (the txt files are also provided here):
 
 elninovarmerge_djf_perm_long.nc
 
@@ -27,6 +27,12 @@ laninavarmerge_djf_perm_long.nc
 laninavarmerge_jf_perm_long.nc
 
 laninavarmerge_nd_perm_long.nc
+
+ensomerge_atm_djf_fortaylor_perm_long.txt
+
+ensomerge_atm_jf_fortaylor_perm_long.txt
+
+ensomerge_atm_nd_fortaylor_perm_long.txt
 
 ## Scripts and other files:
 
