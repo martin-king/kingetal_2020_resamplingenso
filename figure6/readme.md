@@ -4,10 +4,21 @@ Figure caption: Top row: SLP composites for El Nin ̃o or La Nin ̃a events in t
 2. Modify `cdo_sel_elninoorlanina.py` for La Nina.
 3. Repeat 1. and 2. for ND.
 4. Run `write_fortaylor.gs` to produce `elninomerge_atm_jf_fortaylor.txt`, etc.
-5. Use plotcomp.gs and plottaylor.m for plotting. 
-
+5. Use `plotcomp.gs` and `plottaylor.m` for plotting. 
 
 ## Input data
+
+prmsl.mon.mean_janfebmean.nc
+
+prmsl.mon.mean_janfebmean_noelninos_mean_mulc0_841.nc
+
+prmsl.mon.mean_janfebmean_nolaninas_mean_mulc0_865.nc
+
+prmsl.mon.mean_novdecmean.nc
+
+prmsl.mon.mean_novdecmean_noelninos_mean_mulc0_847.nc
+
+prmsl.mon.mean_novdecmean_nolaninas_mean_mulc0_859.nc
 
 ## Output data
 
