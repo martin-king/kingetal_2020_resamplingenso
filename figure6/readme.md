@@ -57,3 +57,19 @@ plottaylor.m
 startup.m
 
 plotcomp.gs
+
+elninomerge_atm_jf.ctl
+
+elninomerge_atm_nd.ctl
+
+elninovarmerge_atm_jf_elnino.ctl
+
+elninovarmerge_atm_nd.elnino.ctl
+
+laninamerge_atm_jf.ctl
+
+laninamerge_atm_nd.ctl
+
+laninavarmerge_atm_jf_lanina.ctl
+
+laninavarmerge_atm_nd_lanina.ctl
