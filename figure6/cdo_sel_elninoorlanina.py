@@ -5,14 +5,14 @@ np.random.seed(None)
 trialtot=range(1,2002)
 
 # >= 1 SD
-#NDJ/DJ. years here are for jan/feb 26 events long 
+#NDJ/DJ. years here are for jan/feb 26 events long el nino
 elninoyears=np.array([1878,1889,1897,1900,1903,1906,1912,1919,1926,1931,1941,1942,1958, \
                       1964,1966,1973,1978,1983,1987,1988,1992,1995,1998,2003,2007,2010])
-#NDJ/DJ. years here are for jan/feb 22 events long elninoyears=np.array([1887,1890,1893,1894,1910,1917,1925,1934,1943,1950,1951,1956,1971, \
+#NDJ/DJ. years here are for jan/feb 22 events long la nina elninoyears=np.array([1887,1890,1893,1894,1910,1917,1925,1934,1943,1950,1951,1956,1971, \
 #                      1974,1976,1985,1989,1999,2000,2008,2011,2012])        
-#ON. years here are for nov/dec 25 events long elninoyears=np.array([1877,1885,1888,1896,1899,1902,1905,1918,1923,1925,1930,1941,1957,1963,1965,1972, \
+#ON. years here are for nov/dec 25 events long elnino elninoyears=np.array([1877,1885,1888,1896,1899,1902,1905,1918,1923,1925,1930,1941,1957,1963,1965,1972, \
 #                      1977,1982,1986,1987,1991,1994,1997,2002,2009])
-#ON. years here are for nov/dec 23 events long elninoyears=np.array([1874,1886,1889,1892,1893,1909,1916,1933,1942,1949,1950,1955,1964,1973,1975,1983, \
+#ON. years here are for nov/dec 23 events long la nina elninoyears=np.array([1874,1886,1889,1892,1893,1909,1916,1933,1942,1949,1950,1955,1964,1973,1975,1983, \
 #                      1984,1988,1998,1999,2007,2010,2011])
 
 for trial in trialtot:
