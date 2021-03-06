@@ -34,6 +34,7 @@ elninomerge_atm_nd_timevaries.nc
 laninamerge_atm_nd_timevaries.nc
 
 ## Output data:
+
 elninoBootTmerge_atm_nd.nc
 
 laninaBootTmerge_atm_nd.nc
@@ -52,7 +53,7 @@ laninaBootTmerge_atm_nd_timevaries_975pctl.nc
 
 ## Scripts and other files:
 
-plotstandarderrro.gs
+plotstandarderrror.gs
 
 elninovarmerge_atm_nd.ctl
 
