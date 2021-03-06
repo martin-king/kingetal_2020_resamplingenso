@@ -1,3 +1,5 @@
+Note: Same Fig. 8 except for ND.
+
 Figure caption: Lower and upper limits of confidence intervals (at 95%) for ND El Niño and La Niña SLP composites corresponding to Fig. 6a, b. 
 The ordt, perc, and bootT intervals are described in Sect. 3.3. Contour interval is 0.5 hPa, with red (blue) contours indicating positive 
 (negative) anomalies. Gray shading indicates locations where the SLP anomalies have the same sign within the entire interval.
