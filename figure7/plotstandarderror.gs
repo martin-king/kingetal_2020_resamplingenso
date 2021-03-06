@@ -2,7 +2,7 @@ function plotstanderr
 
 *ordt
 *example
-*open elninovarmerge_atm_jf.ctl
+*open elninovarmerge_atm_jf_elnino.ctl
 *open elninomerge_atm_jf.ctl
 
 'reset'
