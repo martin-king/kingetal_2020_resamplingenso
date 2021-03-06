@@ -9,6 +9,8 @@ elninoBootTmerge_atm_jf_timevaries.nc and laninaBootTmerge_atm_jf_timevaries.nc.
 elninoBootTmerge_atm_jf_timevaries_975pctl.nc, laninaBootTmerge_atm_jf_timevaries_025pctl.nc, laninaBootTmerge_atm_jf_timevaries_975pctl.nc.
 4. Use `plotboott.gs`to plot coloum 3, for bootT.
 
+The timevaries and sfctimeswitched files are needed to change the z dimension to time dimension. This is so that cdo percentile function can be used.
+
 ## Input data:
 
 elninovarmerge_jf_elnino.nc
