@@ -8,8 +8,10 @@ The ordt, perc, and bootT intervals are described in Sect. 3.3. Contour interval
 2. Use `plot_cont.gs` to plot column 2, for perc.
 3. Use `writeboott.gs` to produce elninoBootTmerge_atm_nd.nc and laninaBootTmerge_atm_nd.nc. Then change them to 
 elninoBootTmerge_atm_nd_timevaries.nc and laninaBootTmerge_atm_nd_timevaries.nc. Then use cdo to produce elninoBootTmerge_atm_nd_timevaries_025pctl.nc, 
-elninoBootTmerge_atm_nd_timevaries_975pctl.nc, laninaBootTmerge_atm_nd_timevaries_025pctl.nc, laninaBootTmerge_atm_nd_timevaries_975pctl.nc.
+elninoBootTmerge_atm_nd_timevaries_975pctl.nc, laninaBootTmerge_atm_nd_timevaries_025pctl.nc, laninaBootTmerge_atm_nd_timevaries_975pctl.nc. 
 4. Use `plotboott.gs`to plot coloum 3, for bootT.
+
+The timevaries and sfctimeswitched files are needed to change the z dimension to time dimension. This is so that cdo percentile function can be used.
 
 ## Input data:
 
