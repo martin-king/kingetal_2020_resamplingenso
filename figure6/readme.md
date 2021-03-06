@@ -36,7 +36,7 @@ elninovarmerge_nd_elnino.nc
 
 laninamerge_nd.nc
 
-laninavarmerge_jf_lanina.nc
+laninavarmerge_nd_lanina.nc
 
 elninomerge_atm_jf_fortaylor.txt
 
