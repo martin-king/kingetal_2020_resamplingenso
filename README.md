@@ -1,6 +1,6 @@
 # kingetal_2020_resamplingenso
 
-King, Li, Sobolowski, Resampling of ENSO to Northern Hemisphere teleconnections: analyses on the Nov/Dec and Jan/Feb means, manuscript.
+King, Li, Sobolowski, Resampling of ENSO to Northern Hemisphere teleconnections, manuscript.
 
 This repository contains codes/scripts, descriptions of analysis steps and softwares used in research presented in the above manuscript. Its primary aim is for replication of the results. Supporting data (what are called Input data and Output data in the readme.md files here) that can help this process are archived separately at ----. 
 
