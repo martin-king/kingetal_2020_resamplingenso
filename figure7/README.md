@@ -13,37 +13,67 @@ elninoBootTmerge_atm_nd_timevaries_975pctl.nc, laninaBootTmerge_atm_nd_timevarie
 
 ## Input data:
 
-elninovarmerge_nd.nc
+elninovarmerge_nd_elnino.nc
+
 elninomerge_nd.nc
-laninavarmerge_nd.nc
+
+laninavarmerge_nd_lanina.nc
+
 laninamerge_nd.nc
+
 elninomerge_atm_nd_timevaries_025pctl.nc
+
 elninomerge_atm_nd_timevaries_975pctl.nc
+
 laninamerge_atm_nd_timevaries_025pctl.nc
+
 laninamerge_atm_nd_timevaries_975pctl.nc
+
 elninomerge_atm_nd_timevaries.nc
+
 laninamerge_atm_nd_timevaries.nc
 
 ## Output data:
 elninoBootTmerge_atm_nd.nc
+
 laninaBootTmerge_atm_nd.nc
+
 elninoBootTmerge_atm_nd_timevaries.nc
+
 laninaBootTmerge_atm_nd_timevaries.nc
+
 elninoBootTmerge_atm_nd_timevaries_025pctl.nc
+
 elninoBootTmerge_atm_nd_timevaries_975pctl.nc
+
 laninaBootTmerge_atm_nd_timevaries_025pctl.nc
+
 laninaBootTmerge_atm_nd_timevaries_975pctl.nc
 
 ## Scripts and other files:
 
 plotstandarderrro.gs
+
 elninovarmerge_atm_nd.ctl
+
 elninomerge_atm_nd.ctl
+
 laninavarmerge_atm_nd.ctl
+
 laninamerge_atm_nd.ctl
+
+elninovarmerge_atm_nd_elnino.ctl
+
+laninavarmerge_atm_nd_lanina.ctl
+
 elninomerge_atm_nd_sfctimeswitched.ctl
+
 laninamerge_atm_nd_sfctimeswitched.ctl
+
 plot_cont.gs
+
 writeboott.gs
+
 plotboott.gs
+
 fig07.png
